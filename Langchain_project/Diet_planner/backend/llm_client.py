@@ -4,6 +4,7 @@ from groq import Groq
 from dotenv import dotenv_values
 import json
 
+
 env_vars = dotenv_values(".env")
 GroqAPIkey = env_vars.get("GroqAPIkey") 
 re_generator = env_vars.get("llm_2_api_key")
